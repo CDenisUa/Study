@@ -19,6 +19,10 @@ function User(firstName,lastName){
     this.getFullName = function (){
         return this.firstName + ' ' + this.lastName;
     }
+    /*return this
+    * Если мы вернем простое значение - он будет игнорироваться
+    * Если вернеться объект - она его возвращает
+    */
 }
 
 // Создаем экземпляры обьектов
